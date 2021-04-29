@@ -29,13 +29,13 @@ sudo yum install python3
 sudo yum install pip
 pip install wheel
 pip install pyspark
-pip isntall findspark
+pip install findspark
 pip install numpy
 sudo yum install docker
 
 To execute the code without using docker run the following commands:
-$ python randomForest_training.py TrainingDataset.csv
-$ python randomForest_prediction.py TestDataset.csv
+$ python wine_training.py TrainingDataset.csv
+$ python wine_prediction.py TestDataset.csv
 
 
 To execute the code using docker run the following:
