@@ -1,5 +1,5 @@
-Training Model - randomForest_training.py
-Prediction Model - randomForest_prediction.py
+Training Model - wine_training.py
+Prediction Model - wine_prediction.py
 
 ####### Create an EMR cluster #######
 
