@@ -31,6 +31,7 @@ if __name__ == "__main__":
                                          impurity='gini', maxDepth=4, maxBins=32)
 
     # Save and load model
-    model.save(sc, "myRandomModel")
+    model.save(spark.sparkContext,'myRandomModel')
+   # model.save(sc, "myRandomModel")
 
     sc.stop()
