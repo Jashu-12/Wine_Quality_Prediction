@@ -27,15 +27,15 @@ After connecting to the master successfully, run the following commands:
 
 sudo yum install python3
 sudo yum install pip
-pip install wheel
-pip install pyspark
-pip install findspark
-pip install numpy
+sudo pip3 install wheel
+sudo pip3 install pyspark
+sudo pip3 install findspark
+sudo pip3 install numpy
 sudo yum install docker
 
 To execute the code without using docker run the following commands:
 $ python wine_training.py TrainingDataset.csv
-$ python wine_prediction.py TestDataset.csv
+$ python wine_prediction.py ValidationDataset.csv
 
 
 To execute the code using docker run the following:
